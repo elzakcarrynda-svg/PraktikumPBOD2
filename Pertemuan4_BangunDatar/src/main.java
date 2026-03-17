@@ -1,6 +1,6 @@
 public class main {
     public static void main(String[] args){
-        BangunDatar BD = new BangunDatar();
+        BangunDatar2 BD = new BangunDatar2();
         BD.setJmlSisi(4);
         BD.setWarna("biru");
         BD.setBorder("merah");
@@ -10,8 +10,8 @@ public class main {
         System.out.println("Info Bangundatar :");
         BD.printInfo();
 
-        Persegi P1 = new Persegi(5, "ungu", "kuning");
-        Lingkaran L1 = new Lingkaran(7, "merah", "biru");
+        Persegi2 P1 = new Persegi2(5, "ungu", "kuning");
+        Lingkaran2 L1 = new Lingkaran2(7, "merah", "biru");
         System.out.println("Luas Persegi = " + P1.getLuas());
         System.out.println("Keliling Persegi = " + P1.getKeliling());
         System.out.println("Luas Lingkaran = " + L1.getLuas());
