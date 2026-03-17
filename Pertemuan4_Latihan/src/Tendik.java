@@ -5,6 +5,11 @@ public class Tendik extends Pegawai {
     public Tendik() {
     }
 
+    public Tendik(String nip, String nama, Date tanggalLahir, Date tmt, double gajiPokok, String bidang) {
+        super(nip, nama, tanggalLahir, tmt, gajiPokok);
+        this.bidang = bidang;
+    }
+
     public String getBidang() {
         return bidang;
     }

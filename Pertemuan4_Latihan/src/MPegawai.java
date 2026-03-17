@@ -1,6 +1,8 @@
 public class MPegawai {
     public static void main(String[] args) {
 
+        System.out.println("-----DOSEN TETAP-----");
+
         Date lahir = new Date();
         lahir.setHari(5);
         lahir.setBulan(5);
@@ -22,5 +24,25 @@ public class MPegawai {
         d.setGajiPokok(5000000);
 
         d.printInfo();
+
+        System.out.println("-----DOSEN TAMU-----");
+
+
+        Date lahir2 = new Date(15, 7, 2001);
+        Date tmt2 = new Date(1, 9, 2023);
+        Date akhirKontrak = new Date(1, 9, 2025);
+
+        DosenTamu d2 = new DosenTamu("1234567890", "11223344", "Midoriya Izuku", lahir2,                     
+        tmt2, 4500000, "Fakultas Superhero", akhirKontrak);
+        d2.printInfo();
+
+        System.out.println("-----TENDIK-----");
+        Date lahir3 = new Date(1, 12, 1998);   
+        Date tmt3 = new Date(1, 1, 2020);
+
+        Tendik t = new Tendik("9876543210", "Twilight Sparkle", lahir3, tmt3, 4000000,"Fakultas Magis" );
+
+        t.printInfo();
     }
+    
 }

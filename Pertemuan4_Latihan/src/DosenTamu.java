@@ -6,6 +6,14 @@ public class DosenTamu extends Dosen {
     public DosenTamu() {
     }
 
+    public DosenTamu(String nip, String nidk, String nama, Date tanggalLahir, Date tmt, 
+    double gajiPokok, String fakultas, Date akhirKontrak) {
+
+        super(nip, nama, tanggalLahir, tmt, gajiPokok, fakultas);
+        this.nidk = nidk;
+        this.akhirKontrak = akhirKontrak;
+    }
+
     public String getNidk() {
         return nidk;
     }

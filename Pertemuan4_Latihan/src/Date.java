@@ -7,6 +7,12 @@ public class Date {
     public Date() {
     }
 
+    public Date(int hari, int bulan, int tahun) {
+        this.hari = hari;
+        this.bulan = bulan;
+        this.tahun = tahun;
+    }
+
     public int getHari() {
         return hari;
     }

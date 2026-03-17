@@ -5,6 +5,13 @@ public class DosenTetap extends Dosen {
     public DosenTetap() {
     }
 
+    public DosenTetap(String nip, String nidn, String nama, Date tanggalLahir, Date tmt,
+    double gajiPokok, String fakultas) {
+
+        super(nip, nama, tanggalLahir, tmt, gajiPokok, fakultas);
+        this.nidn = nidn;
+    }
+
     public String getNidn() {
         return nidn;
     }

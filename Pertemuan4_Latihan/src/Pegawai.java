@@ -9,6 +9,13 @@ public class Pegawai {
     public Pegawai() {
     }
 
+    public Pegawai(String nip, String nama, Date tanggalLahir, Date tmt, double gajiPokok) {
+        this.nip = nip;
+        this.nama = nama;
+        this.tanggalLahir = tanggalLahir;
+        this.tmt = tmt;
+        this.gajiPokok = gajiPokok;
+    }
     public String getNip() {
         return nip;
     }
