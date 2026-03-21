@@ -1,7 +1,7 @@
 public abstract class BangunDatar2 {
     private int jmlSisi;
-    private String warna;
-    private String border;
+    protected String warna;
+    protected String border;
 
     public BangunDatar2 () {
     }
