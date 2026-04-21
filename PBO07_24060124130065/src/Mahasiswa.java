@@ -3,7 +3,7 @@ public class Mahasiswa {
     private String nama;
     private String programStudi;
 
-    // c tanpa parameter
+    // c. tanpa parameter
     public Mahasiswa() {
         nim = "-999";
         nama = "n/a";
