@@ -1,24 +1,24 @@
-class Mahasiswa {
-    String nim;
-    String nama;
-    String programStudi;
+public class Mahasiswa {
+    private String nim;
+    private String nama;
+    private String programStudi;
 
     // c tanpa parameter
-    Mahasiswa() {
+    public Mahasiswa() {
         nim = "-999";
         nama = "n/a";
         programStudi = "n/a";
     }
 
     // d 3 parameter
-    Mahasiswa(String nim, String nama, String programStudi) {
+    public Mahasiswa(String nim, String nama, String programStudi) {
         this.nim = nim;
         this.nama = nama;
         this.programStudi = programStudi;
     }
 
     // e cloning
-    Mahasiswa(Mahasiswa m) {
+    public Mahasiswa(Mahasiswa m) {
         this.nim = m.nim;
         this.nama = m.nama;
         this.programStudi = m.programStudi;
