@@ -1,6 +1,7 @@
-public class Main {
+public class Main8 {
     public static void main(String[] args) {
         //1
+        System.out.println("\nNomer 1 GENERIK PADA CLASS");
         Anggora k1 = new Anggora("Doreng", 3.5);
         Kembangtelon k2 = new Kembangtelon("Sipus", 4.2);
 
@@ -22,6 +23,7 @@ public class Main {
 
         //2
         //integer
+        System.out.println("\nNomer 2 GENERIK PADA OPERATOR");
         Datum<Integer> a = new Datum<>(6);
         Datum<Integer> b = new Datum<>(7);
 
@@ -30,8 +32,8 @@ public class Main {
         System.out.println("b = " + b.getIsi()); 
 
         //String
-        Datum<String> s1 = new Datum<>("Halo");
-        Datum<String> s2 = new Datum<>("Dunia");
+        Datum<String> s1 = new Datum<>("Ohayo Sekai");
+        Datum<String> s2 = new Datum<>("Good Morning World");
 
         OperatorGenerik.Tukar(s1, s2);
         System.out.println(s1.getIsi());
@@ -51,5 +53,29 @@ public class Main {
         //Bobot2
         double total = OperatorGenerik.Bobot2(k3, k4);
         System.out.println("Total bobot: " + total + " kg");
+
+        // Aplikasi kelas data
+        System.out.println("\nNomer 3 LARIK GENERIK");
+
+        Data<Anabul> dataHewan = new Data<>();
+
+        // b setIsi
+        dataHewan.setIsi(1, new Anggora("Mbek", 3.0));
+        dataHewan.setIsi(2, new Kembangtelon("Loreng", 4.5));
+        dataHewan.setIsi(3, new Anjing("Tama"));
+        dataHewan.setIsi(4, new Burung("Owl"));
+
+        // c getIsi
+        System.out.println("\n Menampilkan isi:");
+        for (int i = 1; i <= 4; i++) {
+            Anabul e = dataHewan.getIsi(i);
+            if (e != null) {
+            e.gerak();
+            e.bersuara();
+            }
+        }
+
+        // d getSize
+        System.out.println("\n Jumlah elemen terisi: " + dataHewan.getSize());
     }
 }
