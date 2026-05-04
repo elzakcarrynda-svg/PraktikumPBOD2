@@ -1,4 +1,4 @@
-public class Anggora extends Kucing {
+public class Anggora extends Kucing2 {
     public Anggora(String nama, double bobot) {
         super(nama, bobot);
     }

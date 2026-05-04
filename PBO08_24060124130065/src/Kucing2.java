@@ -1,7 +1,7 @@
-public class Kucing extends Anabul {
+public class Kucing2 extends Anabul {
     private double bobot; 
 
-    public Kucing(String nama, double bobot) {
+    public Kucing2(String nama, double bobot) {
         super(nama);
         this.bobot = bobot;
     }

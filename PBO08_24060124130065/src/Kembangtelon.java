@@ -1,4 +1,4 @@
-public class Kembangtelon extends Kucing {
+public class Kembangtelon extends Kucing2 {
     public Kembangtelon(String nama, double bobot) {
         super(nama, bobot);
     }

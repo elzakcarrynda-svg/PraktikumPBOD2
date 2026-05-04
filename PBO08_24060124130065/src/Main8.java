@@ -1,4 +1,7 @@
 public class Main8 {
+    /* Generik adalah cara untuk membuat kelas atau method yang bisa digunakan 
+    untuk berbagai tipe data tanpa perlu menulis ulang kode yang sama. Tipe datanya ditentukan saat digunakan, bukan saat dibuat. Dengan begitu, 
+    satu kode bisa dipakai untuk Integer, String, atau objek lain seperti Anabul.*/
     public static void main(String[] args) {
         //1
         System.out.println("\nNomer 1 GENERIK PADA CLASS");

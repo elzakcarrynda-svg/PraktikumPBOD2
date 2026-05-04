@@ -4,7 +4,7 @@ public class OperatorGenerik {
         a.setIsi(b.getIsi());
         b.setIsi(temp);
     }
-     public static <T extends Kucing> double Bobot2(T k1, T k2) {
+     public static <T extends Kucing2> double Bobot2(T k1, T k2) {
         return k1.getBobot() + k2.getBobot();
     }
 }

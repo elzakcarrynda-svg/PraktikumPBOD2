@@ -35,6 +35,7 @@ public class Main {
 
         //3
         Anabul[] daftarHewan = { 
+            new Kucing("Sucipto"),
             new Anjing("Santoso"), 
             new Burung("Setiawan") 
         }; 
