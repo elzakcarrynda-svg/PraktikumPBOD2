@@ -45,9 +45,7 @@ public class MainTeman {
 
         // isMember(nama)
         System.out.println("\nCek member : ");
-        System.out.println(
-            KoleksiTeman.isMember("ELZA KHOIRISMA CARRYNDA")
-        );
+        System.out.println(KoleksiTeman.isMember("ELZA KHOIRISMA CARRYNDA"));
 
         // gantiNama(nama, namabaru)
         System.out.println("\nMengganti nama ELZA");
