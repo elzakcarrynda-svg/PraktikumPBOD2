@@ -1,3 +1,11 @@
+/*Koleksi bekerja seperti tempat penyimpanan yang bisa menampung banyak data 
+dalam satu wadah supaya lebih rapi dan gampang diatur. Pada program ini, 
+koleksi dipakai untuk menyimpan data hewan peliharaan ke dalam antrean, 
+jadi hewan yang masuk lebih dulu akan diproses lebih dulu. Juga untuk menyimpan banyak nama teman dalam satu wadah
+Dengan koleksi, program jadi lebih mudah untuk menambah, mencari, menampilkan, 
+atau menghapus data hewan tanpa harus membuat variabel satu per satu.
+ */
+
 public class MainTeman {
     public static void main(String[] args) {
         Teman<String> KoleksiTeman = new Teman<>();
