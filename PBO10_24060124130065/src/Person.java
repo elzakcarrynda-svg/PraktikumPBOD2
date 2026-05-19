@@ -2,6 +2,10 @@ public class Person{
     private int id;
     private String name;
 
+        // constructor kosong
+    public Person() {
+    }
+
     public Person(String n) {
         name = n;
     }
